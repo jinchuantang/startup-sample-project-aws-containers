@@ -17,7 +17,7 @@ env:
 jobs:
   cd:
     name: cd
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out the repo
